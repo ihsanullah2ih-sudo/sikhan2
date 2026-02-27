@@ -1,0 +1,52 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body>
+     
+    
+    <div class="ii">
+     <input type="text" name="" id="name" placeholder="enter your name"><br>
+          <input type="number" name="" id="i" placeholder="enter your name"><br>
+    <input type="number" name="" id="u" placeholder="enter your age"><br>
+
+  <input type="button" name="" id="btn1" value="btn1" class="btn1" >
+   <input type="button" name="" id="btn3" value="back to" class="btn3" >
+</div>
+     <div id="box" class="box"></div>
+          <div id="box1" class="box1"></div>
+
+<script>
+
+let btn1=document.getElementById("btn1");
+btn1.addEventListener("click", function () {
+    let name=document.getElementById("name").value
+    let one= document.getElementById("i").value;
+  let tow= document.getElementById("u").value;
+ 
+      let msg1;
+if (one > tow) {
+   msg1=one +`please ${name} enter your id`;
+box.style.backgroundColor="yellow"
+}else {
+   msg1=tow + `please ${name} try agine`;
+box.style.backgroundColor="green"
+
+}
+box.innerHTML=msg1;
+    box.style.display = "block";
+
+})
+let btn3=document.getElementById("btn3");
+btn3.addEventListener("click",function(){
+    window.open("http://127.0.0.1:5500/toggle.html","_self")
+})
+
+</script>
+    </body>
+    </html>

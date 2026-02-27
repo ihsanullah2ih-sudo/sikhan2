@@ -1,0 +1,59 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title><link rel="stylesheet" href="style.css">
+      
+    </head>
+    <body>
+     
+    
+    <div class="ii">
+    
+          <input type="text" name="" id="i" placeholder="enter your name"><br>
+    <input type="number" name="" id="u" placeholder="enter your age"><br>
+ <input type="button" name="" id="btn" value="btn" class="btn" >
+  <input type="button" name="" id="btn2" value="btn1" class="btn1" >
+    <input type="button" name="" id="btn4" value="btn4" class="btn" onclick='alert("welcom to our class")'>
+</div>
+     <div id="box" class="box"></div>
+          <div id="box1" class="box1"></div>
+
+<script>
+let btn = document.querySelector(".btn");
+let box = document.getElementById("box");
+
+btn.addEventListener("click", function () {
+
+    if (box.style.display === "block") {
+        box.style.display = "none";
+        return;
+    }
+
+    let i = document.getElementById("i").value;
+    let u = document.getElementById("u").value;
+
+    let msg;
+
+    if (u < 18) {
+        msg = `You are not successful ${i}`;
+    } else {
+        msg = `You are successful ${i}`;
+    }
+
+    box.innerHTML = msg + " ihsanullah";
+    box.style.display = "block";
+});
+
+
+</script>
+<script>
+    let btn2=document.getElementById("btn2")
+    btn2.addEventListener("click", function(){
+ window.open("http://127.0.0.1:5500/index.html","_self")
+    })
+   
+</script>
+    </body>
+    </html>

@@ -1,0 +1,117 @@
+        .one {
+            width: 90%;
+            height: 10px;
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 2px 2px 25px black;
+
+        }
+
+        #tow {
+            background-color: red;
+            width: 2%;
+            height: 100%;
+        }
+
+        .ii {
+            text-align: center;
+            margin-top: 1rem;
+            width: 400px;
+            height: 200px;
+            background-image: url("/bb.jpg");
+
+            margin: auto;
+            box-shadow: 3px 2px 25px 4px black;
+        }
+
+        input {
+            width: 200px;
+            background-color: blanchedalmond;
+            margin: 0.2rem;
+            padding: 10px;
+            text-align: center;
+            align-items: center;
+            margin-top: 1rem;
+            border-radius: 10px;
+        }
+
+        .btn {
+            width: 50px;
+            border-radius: 10px;
+            background-color: rgb(193, 193, 214);
+            /* margin-top: 0.5rem; */
+            padding: 1rem;
+            text-align: center;
+            margin-left: 1rem;
+            box-shadow: 3px 3px 25px 4px black;
+
+        }
+
+        .box1 {
+            /* background-color: green; */
+            color: white;
+        }
+
+        .box {
+            text-align: center;
+            margin: auto;
+            /* background-color: chocolate; */
+            padding: 2rem;
+            color: rgb(155, 4, 4);
+            display: none;
+            width: 400px;
+            margin-top: 2rem;
+        }
+              body{
+            background-color: rgb(209, 209, 183);
+          }
+            .ii{
+                text-align: center;
+                margin-top: 1rem;
+                width: 400px;
+                height: 300px;
+                background-image: url("/aa.png");
+                text-align: center;
+                align-items: center;
+                margin: auto;
+                box-shadow: 2px 2px 25px black;
+            }
+            input {
+                width: 200px;
+                background-color: blanchedalmond;
+margin: 0.2rem;
+padding: 10px;
+text-align: center;
+align-items: center;
+margin-top: 1rem;  border-radius: 10px;
+            }
+            .btn1 {
+                width: 80px;
+                border-radius: 10px;
+                background-color: blue;
+                /* margin-top: 0.5rem; */
+                padding: 1rem;
+                text-align: center;
+            
+             
+            }
+            .btn3 {
+                background-color: red;
+                 padding: 1rem;
+                text-align: center;
+                     width: 80px;
+                border-radius: 10px;
+            }
+            .box1 {
+    /* background-color: green; */
+    color: white;
+}
+            .box {
+                text-align: center;
+                margin: auto;
+                /* background-color: chocolate; */
+                padding: 2rem;
+          color:rgb(155, 4, 4);
+          display: none; width: 400px;
+          margin-top: 2rem;
+            }
